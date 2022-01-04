@@ -35,7 +35,7 @@ st.subheader('En la gráfica circular, puedes igual pasar el ratón por encima. 
 #st.subheader('Was the tutorial helpful?')
 
 ### --- LOAD DATAFRAME
-excel_file = 'Data/datos.xlsx'
+excel_file = 'datos.xlsx'
 sheet_name = 'DATA'
 
 df = pd.read_excel(excel_file,
@@ -83,7 +83,7 @@ st.plotly_chart(bar_chart)
 
 # --- DISPLAY IMAGE & DATAFRAME
 col1, col2 = st.columns(2)
-image = Image.open('data/python1.jpg')
+image = Image.open('python1.jpg')
 print(image)
 col1.image(image,
         caption='',
