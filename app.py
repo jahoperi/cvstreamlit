@@ -93,7 +93,7 @@ col2.dataframe(df[mask])
 # --- PLOT PIE CHART
 pie_chart = px.pie(df_participants,
                 title='% del Total de Ocupación',
-                values='Participants',
+                values='Frecuencia',
                 names='Profesión')
 
 st.plotly_chart(pie_chart)
